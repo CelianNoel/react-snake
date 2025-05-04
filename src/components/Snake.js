@@ -8,7 +8,12 @@ const Snake = props => {
           left: `${dot[0]}%`,
           top: `${dot[1]}%`
         };
-        return <div className="snake" key={i} style={style} />;
+        return <div 
+          className="snake focus:outline-none focus-visible:outline-none"
+          tabIndex={-1} 
+          key={i} 
+          style={style} 
+        />;
       })}
     </div>
   );

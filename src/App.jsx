@@ -55,6 +55,18 @@ class App extends Component  {
       case 40:
         this.setState({ direction: "DOWN" });
         break;
+      case 81:
+        this.setState({ direction: "LEFT" });
+        break;
+      case 90:
+        this.setState({ direction: "UP" });
+        break;
+      case 68:
+        this.setState({ direction: "RIGHT" });
+        break;
+      case 83:
+        this.setState({ direction: "DOWN" });
+        break;
     }
   };
 
